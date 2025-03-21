@@ -1,0 +1,89 @@
+.SectionBar a {
+    color: #cdcdcd;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .SectionBar a:hover {
+    color: #ffffff;
+  }
+  
+  .SectionBar nav ul {
+    background-color: #343434;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section-bar-button {
+    border: none;
+    background-color: #343434;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Gabarito', serif;
+    transition: all 0.2s;
+  }
+  
+  .SectionBar nav ul li {
+    list-style: none;
+    font-family: 'Bebas Neue', serif;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    align-self: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .SectionBar nav ul {
+      flex-wrap: wrap;
+      height: auto;
+      display: none;
+    }
+  
+    .SectionBar nav ul li {
+      width: 48%;
+      margin: 5px 1%;
+      display: none;
+    }
+  
+    .SectionBar a {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .SectionBar nav ul {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+    }
+  
+    .SectionBar nav ul li {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .SectionBar a {
+      font-size: 18px;
+    }
+  
+    .section-bar-button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .SectionBar a {
+      font-size: 16px;
+      display: none;
+    }
+  
+    .SectionBar nav ul li {
+      margin: 3px 0;
+      display: none;
+    }
+  }
