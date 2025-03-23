@@ -1,4 +1,4 @@
-# BeefMath
+#  🥩🔥BeefMath
 
 **BeefMath** é a sua ferramenta definitiva para calcular tudo o que você precisa para um churrasco perfeito! 🥩🔥 Com uma interface intuitiva e design moderno, o BeefMath permite planejar com precisão a quantidade de carne, acompanhamentos e bebidas para eventos de qualquer tamanho. Simplifique seu planejamento e garanta que todos saiam satisfeitos sem desperdícios. Ideal para quem quer aproveitar a festa sem se preocupar com os números!
 
